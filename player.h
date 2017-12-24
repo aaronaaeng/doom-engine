@@ -8,6 +8,6 @@ static struct player {
 
     float angle, anglesin, anglecos, yaw;
     unsigned sector;
-} player;
+};
 
 #endif

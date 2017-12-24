@@ -15,6 +15,10 @@
 #define hfov (0.73f*H)
 #define vfov (0.2f*H)
 
+struct player player;
+struct sector *sectors = NULL;
+static unsigned numSectors = 0;
+
 
 int main() {
     printf("%d \n", max(4, 5));
