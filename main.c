@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#include <SDL.h>
+// #include <SDL.h>
+#include "v_math.c"
+#include "player.h"
+#include "sector.h"
 
 #define W 800
 #define H 600
@@ -14,24 +16,7 @@
 #define vfov (0.2f*H)
 
 
-
-static struct sector {
-    float floor, ceiling;
-    struct xy {
-        float x, y;
-    } *vertex;
-
-    signed char *neighbors;
-    unsigned npoints;
-} *sectors = NULL;
-static unsigned NumSectors = 0;
-
-static struct player {
-    struct xyz {
-        float x, y, z;
-    } where, velocity;
-
-    float angle, anglesin, anglecos, yaw;
-    unsigned sector;
-} player;
-
+int main() {
+    printf("%d \n", max(4, 5));
+    return 1;
+}
