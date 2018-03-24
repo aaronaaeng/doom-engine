@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// #include <SDL.h>
+// #include <sdl.h>
 #include "v_math.c"
 #include "player.h"
 #include "sector.h"
